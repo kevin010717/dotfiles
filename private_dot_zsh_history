@@ -1,0 +1,168 @@
+: 1731921297:0;clear
+: 1731921334:0;y
+: 1731921336:0;sc
+: 1731921344:0;yazi
+: 1731921374:0;cd .workspace
+: 1731921383:0;lazygit
+: 1731922055:0;..
+: 1731927915:0;cd w
+: 1731927926:0;cd .workspace
+: 1731927931:0;lazygit
+: 1731928908:0;..
+: 1731929771:0;git clone -b termux https://github.com/kevin010717/workspace.git
+: 1731929780:0;cd workspace
+: 1731929784:0;lazygit
+: 1731929826:0;echo "111">termux
+: 1731929830:0;lazygit
+: 1731929855:0;..
+: 1731929857:0;clear
+: 1731929867:0;cd .workspace
+: 1731929873:0;clear
+: 1731929877:0;lazygit
+: 1731930492:0;ls
+: 1731930565:0;..
+: 1731930572:0;cd workspace
+: 1731930577:0;lazygit
+: 1731930655:0;..
+: 1731930656:0;clear
+: 1731933218:0;ls
+: 1731934152:0;cd workspace
+: 1731934156:0;lazygit
+: 1731934180:0;..
+: 1731934182:0;y
+: 1731934185:0;yazi
+: 1731934203:0;cd .workspace
+: 1731934207:0;lazygit
+: 1731934816:0;clear
+: 1731934821:0;..
+: 1731934824:0;y
+: 1731934826:0;yazi
+: 1731934838:0;clear
+: 1731966930:0;lazygit
+: 1731966961:0;n
+: 1731967005:0;nvim
+: 1731967032:0;n
+: 1731967035:0;nvim
+: 1731967053:0;nvim .zshrc
+: 1731967076:0;ls
+: 1731967084:0;git clone -b termux https://github.com/kevin010717/workspace.git
+: 1731967114:0;git clone https://github.com/kevin010717/workspace.git
+: 1731967148:0;nvim workspace
+: 1731967416:0;n
+: 1731967419:0;nvim
+: 1731967473:0;source .zshrc
+: 1731967476:0;sc
+: 1731967480:0;clear
+: 1731967497:0;n
+: 1731967531:0;cd w:w
+: 1731967536:0;cd workspace
+: 1731967543:0;lazygit
+: 1731967581:0;..
+: 1731967583:0;clear
+: 1731967614:0;n
+: 1731967621:0;clear
+: 1731967639:0;chezmoi
+: 1731967662:0;clear
+: 1732155463:0;pipx install gpt-engineer
+: 1732155478:0;pip install gpt-engineer
+: 1732158480:0;clear
+: 1732176501:0;n
+: 1732176524:0;clear
+: 1732182457:0;aider
+: 1732182468:0;pip install aider
+: 1732182480:0;aider
+: 1732182486:0;clear
+: 1732182491:0;n
+: 1732182496:0;ls
+: 1732182498:0;clear
+: 1732182508:0;ls
+: 1732182510:0;n
+: 1732182524:0;clear
+: 1732215437:0;n
+: 1732215451:0;clear
+: 1732216052:0;n
+: 1732216585:0;clear
+: 1732216590:0;n
+: 1732216637:0;clear
+: 1732397806:0;npx create-docusaurus@latest my-website classic
+: 1732397922:0;cd my-website
+: 1732397932:0;npm start
+: 1732398085:0;npm run build
+: 1732398132:0;ls
+: 1732398138:0;y
+: 1732398213:0;..
+: 1732398228:0;npx create-docusaurus@latest my-website-1 classic
+: 1732398505:0;cd my-website-1
+: 1732398507:0;ls
+: 1732399410:0;npm start
+: 1732399445:0;ls
+: 1732399485:0;n README.md
+: 1732399499:0;yarn
+: 1732399507:0;pkg i yarn
+: 1732399524:0;yarn deploy
+: 1732399584:0;GIT_USER=kevin010717 yarn deploy
+: 1732399671:0;yarn deploy
+: 1732401091:0;..
+: 1732401093:0;y
+: 1732401114:0;ls
+: 1732401116:0;clear
+: 1732608383:0;ls
+: 1732608385:0;y
+: 1732608393:0;ls
+: 1732608399:0;cd workspace
+: 1732608402:0;lazygit
+: 1732608439:0;..
+: 1732608440:0;y
+: 1732608445:0;git clone https://github.com/kevin010717/workspace.git
+: 1732608451:0;ls
+: 1732608474:0;\
+\
+\
+\
+
+: 1732608492:0;\\\\
+
+: 1732608495:0;ls
+: 1732608500:0;n
+: 1732608533:0;ls
+: 1732608535:0;y
+: 1732667387:0;ifconfig
+: 1732667410:0;whoami
+: 1732667421:0;sv-up sshd
+: 1732667430:0;sv-enable sshd
+: 1732667445:0;ls
+: 1732667451:0;cd workspace
+: 1732667455:0;n
+: 1732667506:0;bash
+: 1732667690:0;..
+: 1732667694:0;chezmoi init
+: 1732667710:0;ls ./.local/share/chezmoi
+: 1732667728:0;chezmoi add .zshrc
+: 1732667730:0;ls ./.local/share/chezmoi
+: 1732667846:0;chezmoi edit ~/.zshrc
+: 1732667890:0;chezmoi diff
+: 1732667929:0;n .zshrc
+: 1732667954:0;chezmoi -v apply
+: 1732668003:0;n .zshrc
+: 1732668023:0;chezmoi cd
+: 1732668030:0;git add .
+: 1732668060:0;lazygit
+: 1732668234:0;git branch -M main
+: 1732668239:0;lazygit
+: 1732668255:0;git remote add origin https://github.com/kevin010717/dotfiles.git
+: 1732668261:0;git push -u origin main
+: 1732668508:0;pwd
+: 1732668515:0;ls -a
+: 1732668523:0;n
+: 1732668679:0;..
+: 1732668682:0;~
+: 1732668696:0;chezmoi edit .zshrc
+: 1732668723:0;chezmoi init https://github.com/kevin010717/dotfiles.git
+: 1732668730:0;n .zshrc
+: 1732668745:0;chezmoi diff
+: 1732668759:0;chezmoi -v apply
+: 1732668768:0;n .zshrc
+: 1732668856:0;chezmoi edit .zshrc
+: 1732668883:0;chezmoi merge .zshrc
+: 1732668967:0;chezmoi init https://github.com/kevin010717/dotfiles.git -v
+: 1732669058:0;chezmoi add .zsh_history
