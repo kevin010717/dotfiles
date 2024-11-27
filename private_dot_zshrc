@@ -148,4 +148,3 @@ zink() {
 }
 export PATH="$HOME/.cargo/bin:$PATH"
 export CARGO_REGISTRY="https://mirrors.tuna.tsinghua.edu.cn/crates.io-index"
-#new line
